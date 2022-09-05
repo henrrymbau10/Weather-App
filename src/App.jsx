@@ -48,7 +48,7 @@ function App() {
             <div className="feels">
               {data.main ? (
                 <p className="bold">
-                  {Math.round((data.main.temp.toFixed() - 32) * (5 / 9))}°F
+                  {Math.round((data.main.temp.toFixed() - 32) * (5 / 9))}C°
                 </p>
               ) : null}
               <p>Temperatura</p>
